@@ -13,6 +13,8 @@
 		F4C2F16A1CEB461D00460907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C2F1691CEB461D00460907 /* Assets.xcassets */; };
 		F4C2F16D1CEB461D00460907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C2F16B1CEB461D00460907 /* LaunchScreen.storyboard */; };
 		F4C2F1781CEB461D00460907 /* RetroTopicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C2F1771CEB461D00460907 /* RetroTopicsTests.swift */; };
+		F4C2F1831CEB4AF000460907 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C2F1821CEB4AF000460907 /* Topic.swift */; };
+		F4C2F1851CEB4FAF00460907 /* TopicsViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C2F1841CEB4FAF00460907 /* TopicsViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F4C2F1731CEB461D00460907 /* RetroTopicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroTopicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C2F1771CEB461D00460907 /* RetroTopicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroTopicsTests.swift; sourceTree = "<group>"; };
 		F4C2F1791CEB461D00460907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C2F1821CEB4AF000460907 /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		F4C2F1841CEB4FAF00460907 /* TopicsViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicsViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				F4C2F1691CEB461D00460907 /* Assets.xcassets */,
 				F4C2F16B1CEB461D00460907 /* LaunchScreen.storyboard */,
 				F4C2F16E1CEB461D00460907 /* Info.plist */,
+				F4C2F1821CEB4AF000460907 /* Topic.swift */,
 			);
 			path = RetroTopics;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 			children = (
 				F4C2F1771CEB461D00460907 /* RetroTopicsTests.swift */,
 				F4C2F1791CEB461D00460907 /* Info.plist */,
+				F4C2F1841CEB4FAF00460907 /* TopicsViewControllerTest.swift */,
 			);
 			path = RetroTopicsTests;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4C2F1651CEB461D00460907 /* ViewController.swift in Sources */,
+				F4C2F1831CEB4AF000460907 /* Topic.swift in Sources */,
 				F4C2F1631CEB461D00460907 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C2F1851CEB4FAF00460907 /* TopicsViewControllerTest.swift in Sources */,
 				F4C2F1781CEB461D00460907 /* RetroTopicsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
